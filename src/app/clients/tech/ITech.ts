@@ -1,5 +1,5 @@
 export interface ITech {
-    techId: number;
-    name: string;
-    path: string;
+  techId: number;
+  name: string;
+  path: string;
 }

@@ -1,44 +1,44 @@
 [
-    {
-        "techId": "1",
-        "name": "Angular 5",
-        "description": "",
-        "path": "assets/techImages/angular.png"
-    },
-    {
-        "techId": "2",
-        "name": "Asp.Net core 2.0.3",
-        "description": "",
-        "path": "assets/techImages/aspNetCore.jpg"
-    },
-    {
-        "techId": "3",
-        "name": "Entity Framework core 2.0.0",
-        "description": "",
-        "path": "assets/techImages/entityFramework.png"
-    },
-    {
-        "techId": "4",
-        "name": "Microsoft Azur",
-        "description": "",
-        "path": "assets/techImages/Microsoft Azure.png"
-    },
-    {
-        "techId": "5",
-        "name": "Google Firebase",
-        "description": "",
-        "path": "assets/techImages/firebase.jpg"
-    },
-    {
-        "techId": "6",
-        "name": "PrimeNg",
-        "description": "",
-        "path": "assets/techImages/primeng.png"
-    },
-    {
-        "techId": "7",
-        "name": "Microsoft Sql 2017",
-        "description": "",
-        "path": "assets/techImages/sql.png"
-    }
+  {
+    "techId": "1",
+    "name": "Angular 5",
+    "description": "",
+    "path": "assets/techImages/angular.png"
+  },
+  {
+    "techId": "2",
+    "name": "Asp.Net core 2.0.3",
+    "description": "",
+    "path": "assets/techImages/aspNetCore.jpg"
+  },
+  {
+    "techId": "3",
+    "name": "Entity Framework core 2.0.0",
+    "description": "",
+    "path": "assets/techImages/entityFramework.png"
+  },
+  {
+    "techId": "4",
+    "name": "Microsoft Azur",
+    "description": "",
+    "path": "assets/techImages/Microsoft Azure.png"
+  },
+  {
+    "techId": "5",
+    "name": "Google Firebase",
+    "description": "",
+    "path": "assets/techImages/firebase.jpg"
+  },
+  {
+    "techId": "6",
+    "name": "PrimeNg",
+    "description": "",
+    "path": "assets/techImages/primeng.png"
+  },
+  {
+    "techId": "7",
+    "name": "Microsoft Sql 2017",
+    "description": "",
+    "path": "assets/techImages/sql.png"
+  }
 ]
