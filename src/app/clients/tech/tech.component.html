@@ -1,0 +1,21 @@
+<p-panel header="Technologies">
+  <div class="row">
+    <div *ngFor="let tech of technologies" class="col-xl-4 col-md-4 mb-3">
+      <div class="card" style="height: 100%;">
+        <!--Card image-->
+        <div class="view overlay hm-zoom">
+          <img class="img-fluid" src="{{tech.path}}" alt="{{tech.name}}">
+          <a>
+            <div class="mask waves-effect waves-light"></div>
+          </a>
+        </div>
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">{{tech.name}}</h4>
+        </div>
+      </div>
+      <!--/.Card-->
+    </div>
+  </div>
+</p-panel>

@@ -2,15 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'o-web-developer',
-  templateUrl: './web-developer.component.html'
+  selector: 'o-vision',
+  templateUrl: './vision.component.html'
 })
-export class WebDeveloperComponent implements OnInit {
+export class VisionComponent implements OnInit {
 
   constructor(private title: Title) {
-    this.title.setTitle('Web Developer');
+    this.title.setTitle('Vision');
   }
-
 
   ngOnInit() {
   }

@@ -8,15 +8,19 @@ import { AppComponent } from './app.component';
 import { PanelModule, DataTableModule, SplitButtonModule, ButtonModule } from 'primeng/primeng';
 import { environment } from '../environments/environment';
 import { HomeComponent } from './home/home.component';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { VisionComponent } from './vision/vision.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    VisionComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, SplitButtonModule, PanelModule, DataTableModule, ButtonModule,
-    AppRoutingModule,
+    AppRoutingModule, AngularFireModule.initializeApp(environment.firebase), AngularFirestoreModule.enablePersistence(),
     environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
   ],
   providers: [],
