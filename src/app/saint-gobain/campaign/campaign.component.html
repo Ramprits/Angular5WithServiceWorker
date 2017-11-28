@@ -1,0 +1,10 @@
+<main class="py-5">
+  <p-panel header="Campaign">
+    <p-dataTable [value]="campaigns" [loading]="loading" [responsive]="true" [rows]="15" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,20]"
+      [stacked]="stacked">
+      <p-column field="name" header="Name" [sortable]="true"></p-column>
+      <p-column field="description" header="Description" [sortable]="true"></p-column>
+      <p-column field="maximumWishes" header="Maximum Wishes" [sortable]="true"></p-column>
+    </p-dataTable>
+  </p-panel>
+</main>

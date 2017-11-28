@@ -11,7 +11,11 @@ const routes: Routes = [
     path: "department",
     loadChildren: "app/department/department.module#DepartmentModule"
   },
-  { path: "client", loadChildren: "app/clients/clients.module#ClientsModule" }
+  { path: "client", loadChildren: "app/clients/clients.module#ClientsModule" },
+  {
+    path: "saintGobain",
+    loadChildren: "app/saint-gobain/saint-gobain.module#SaintGobainModule"
+  }
 ];
 
 @NgModule({
