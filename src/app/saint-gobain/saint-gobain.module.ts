@@ -12,6 +12,7 @@ import {
   ButtonModule
 } from "primeng/primeng";
 import { FormsModule } from "@angular/forms";
+import { TrainingComponent } from "./training/training.component";
 @NgModule({
   imports: [
     CommonModule,
@@ -23,7 +24,7 @@ import { FormsModule } from "@angular/forms";
     DataTableModule,
     ButtonModule
   ],
-  declarations: [CampaignComponent],
+  declarations: [CampaignComponent, TrainingComponent],
   providers: [CampaignService]
 })
 export class SaintGobainModule {}

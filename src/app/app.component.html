@@ -24,22 +24,13 @@
         <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
           <a class="nav-link" [routerLink]="['/client/tech']">Technologies</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department</a>
-          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item waves-effect waves-light hover" [routerLink]="['/department/customer']">Customer</a>
-            <a class="dropdown-item waves-effect waves-light">Software Developer</a>
-            <a class="dropdown-item waves-effect waves-light">Human Resource</a>
-            <a class="dropdown-item waves-effect waves-light">Web Developer</a>
-          </div>
-        </li>
+     
         <!-- Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clients</a>
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Saint Gobain</a>
           <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item waves-effect waves-light hover">Arctech Info</a>
-            <a class="dropdown-item waves-effect waves-light">Calculas Technologies</a>
-            <a class="dropdown-item waves-effect waves-light">DNI Fruits Mart</a>
+            <a class="dropdown-item waves-effect waves-light hover" [routerLink]="['/saintGobain/campaign']">Campaign</a>
+            <a class="dropdown-item waves-effect waves-light" [routerLink]="['/saintGobain/training']">Training</a>
           </div>
         </li>
       </ul>
